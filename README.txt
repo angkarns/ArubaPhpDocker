@@ -1,4 +1,4 @@
-1) Load "https://github.com/angkarns/ArubaSocketServer" sourcecode and extract to C:\
+1) Download "https://github.com/angkarns/ArubaSocketServer" sourcecode and extract to C:\
 2) Downlaod and install nodejs "https://nodejs.org/en/download"
 3) Install Node Packet Manager
   > cd c:\ArubaSocketServer
@@ -11,7 +11,7 @@
   > wsl --set-default-version 2
 5) Install Ubuntu on Windows Store
 6) Install docker for windows desktop "https://hub.docker.com/editions/community/docker-ce-desktop-windows/"
-   >> Change Docker desktop Resource/WLS-Integration Setting to Ubuntu
+   >> Change Docker desktop Resource/WLS-Integration Setting to "Ubuntu"
 7) Load "https://github.com/angkarns/ArubaPhpDocker" sourcecode and extract to C:\
 8) Install Apache-PHP
   > cd c:\ArubaPhpDocker
@@ -28,4 +28,4 @@
   > docker run --name phpmyadmin -d --link iot-mysql:db -p 8081:80 phpmyadmin
 12) phpMyAdmin> Edit or Add new sql-root-user password to "Native-MySql-Authentication"
 13) phpMyAdmin> import "iot-table.sql" file to "iot" database
-c
+
