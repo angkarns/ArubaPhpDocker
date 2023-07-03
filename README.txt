@@ -27,5 +27,5 @@
 11) Install phpMyAdmin
   > docker run --name phpmyadmin -d --link iot-mysql:db -p 8081:80 phpmyadmin
 12) phpMyAdmin> Edit or Add new sql-root-user password to "Native-MySql-Authentication"
-13) phpMyAdmin> import "iot-table.sql" file to "iot" database
+13) phpMyAdmin> import "sql\iot-table.sql" file to "iot" database
 
