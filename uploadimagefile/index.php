@@ -1,6 +1,6 @@
 <?php
 // https://www.youtube.com/watch?v=1bUc4tMX7i4
-require 'connection.php';
+require '../server.php';
 if (isset($_POST["submit"])) {
   $name = $_POST["name"];
   if ($_FILES["image"]["error"] == 4) {

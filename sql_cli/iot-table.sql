@@ -62,8 +62,8 @@ CREATE TABLE `register_users` (
 --
 
 INSERT INTO `register_users` (`id`, `username`, `email`, `userlevel`, `password`) VALUES
-(6, 'admin1', 'admin1@uit.co.th', 'a', 'c98f7accb7085721d179609382a1509e'),
-(7, 'user1', 'user1@uit.co.th', 'm', 'c98f7accb7085721d179609382a1509e');
+(1, 'admin1', 'admin1@uit.co.th', 'a', 'c98f7accb7085721d179609382a1509e'),
+(2, 'user1', 'user1@uit.co.th', 'm', 'c98f7accb7085721d179609382a1509e');
 
 -- --------------------------------------------------------
 
@@ -89,16 +89,16 @@ CREATE TABLE `sensors` (
 --
 
 INSERT INTO `sensors` (`s_no`, `s_mac_address`, `s_device_type`, `s_minor`, `s_major`, `s_battery`, `s_dynamic_value`, `s_rssi`, `s_timestamp`, `s_location`) VALUES
-(2, '247d4dbdf4c2', 'iBeacon', 0, 0, NULL, NULL, -89, '2021-12-10 07:56:08', 'Lobby-Room'),
-(3, 'f008d155b65e', 'iBeacon', 94, 747, NULL, NULL, -82, '2021-12-10 07:56:29', 'Master-BedRoom'),
-(4, 'a0e6f8515eff', 'arubaTag', NULL, NULL, 92, NULL, -80, '2021-12-10 07:56:29', 'Master-BedRoom'),
-(5, 'f008d155b4fe', 'eddystone', NULL, NULL, NULL, 80, -78, '2021-12-10 07:56:29', 'Master-BedRoom'),
-(6, 'f008d155b4fe', 'eddystone', NULL, NULL, NULL, 42, -78, '2021-12-10 07:56:34', 'Gaming-Room'),
-(7, 'f008d155b65e', 'iBeacon', 42, 113, NULL, NULL, -86, '2021-12-10 07:56:34', 'Gaming-Room'),
-(8, '0cae7dbffd5f', 'iBeacon', 0, 0, NULL, NULL, -88, '2021-12-10 07:56:34', 'Gaming-Room'),
-(9, 'a0e6f8515eff', 'arubaTag', NULL, NULL, 92, NULL, -76, '2021-12-10 07:56:34', 'Gaming-Room'),
-(10, '247d4dbdf4c2', 'iBeacon', 0, 0, NULL, NULL, -90, '2021-12-10 07:56:38', 'Lobby-Room'),
-(11, 'f008d155b65e', 'iBeacon', 75, 160, NULL, NULL, -80, '2021-12-10 07:56:59', 'Master-BedRoom');
+(1, '247d4dbdf4c2', 'iBeacon', 0, 0, NULL, NULL, -89, '2021-12-10 07:56:08', 'Lobby-Room'),
+(2, 'f008d155b65e', 'iBeacon', 94, 747, NULL, NULL, -82, '2021-12-10 07:56:29', 'Master-BedRoom'),
+(3, 'a0e6f8515eff', 'arubaTag', NULL, NULL, 92, NULL, -80, '2021-12-10 07:56:29', 'Master-BedRoom'),
+(4, 'f008d155b4fe', 'eddystone', NULL, NULL, NULL, 80, -78, '2021-12-10 07:56:29', 'Master-BedRoom'),
+(5, 'f008d155b4fe', 'eddystone', NULL, NULL, NULL, 42, -78, '2021-12-10 07:56:34', 'Gaming-Room'),
+(6, 'f008d155b65e', 'iBeacon', 42, 113, NULL, NULL, -86, '2021-12-10 07:56:34', 'Gaming-Room'),
+(7, '0cae7dbffd5f', 'iBeacon', 0, 0, NULL, NULL, -88, '2021-12-10 07:56:34', 'Gaming-Room'),
+(8, 'a0e6f8515eff', 'arubaTag', NULL, NULL, 92, NULL, -76, '2021-12-10 07:56:34', 'Gaming-Room'),
+(9, '247d4dbdf4c2', 'iBeacon', 0, 0, NULL, NULL, -90, '2021-12-10 07:56:38', 'Lobby-Room'),
+(10, 'f008d155b65e', 'iBeacon', 75, 160, NULL, NULL, -80, '2021-12-10 07:56:59', 'Master-BedRoom');
 
 -- --------------------------------------------------------
 
@@ -117,7 +117,12 @@ CREATE TABLE `tb_upload` (
 --
 
 INSERT INTO `tb_upload` (`id`, `name`, `image`) VALUES
-(6, 'Bldg1-F1-RoomA_f590', '6391696cb1589.png');
+(1, 'Bldg1-F1-RoomA_f590', '6391696cb1589.png'),
+(2, 'Bldg1-F1-RoomB_eb92', '62a9bccdc5709.png'),
+(3, 'Bldg1-F1-RoomC_a6ba', '62a9bebfe423b.png'),
+(4, 'Gaming-Room', '62ac45ebb62b4.png'),
+(5, 'Master-BedRoom', '62ac45d79b567.png'),
+(6, 'Lobby-Room', '62ac45bb44c76.png');
 
 --
 -- Indexes for dumped tables

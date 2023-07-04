@@ -1,5 +1,5 @@
 <?php
-require 'connection.php';
+require '../server.php';
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">

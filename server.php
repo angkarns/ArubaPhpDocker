@@ -1,8 +1,8 @@
 <?php 
 
-    $servername = "192.168.1.66";
+    $servername = "10.10.10.51";
     $username = "root";
-    $password = "password";
+    $password = "root00--";
     $dbname = "iot";
 
     // Create Connection

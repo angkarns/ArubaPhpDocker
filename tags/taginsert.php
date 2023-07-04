@@ -1,5 +1,5 @@
 <?php
-require 'tagdb.php';
+require '../server.php';
 // get the post records
 $d_name = $_POST['d_name'];
 $d_macaddress = $_POST['d_macaddress'];
