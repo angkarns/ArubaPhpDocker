@@ -3,7 +3,7 @@
 3) Install Node Packet Manager
   > cd c:\ArubaSocketServer
   > npm install
-4) enable Windows-Subsystem via Windows Command Prompt
+4) enable Windows-Subsystem via Windows Power Shell (Run as Administrator)
   > cd \
   > dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
   > dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
