@@ -1,5 +1,5 @@
 1) Download "https://github.com/angkarns/ArubaSocketServer" sourcecode and extract to C:\
-  > Change sql-connection-ip-address in server.js file (Line 121)
+   >> Change sql-connection-ip-address in server.js file (Line 121)
 2) Downlaod and install nodejs "https://nodejs.org/en/download"
 3) Install Node Packet Manager
   > cd c:\ArubaSocketServer
@@ -14,7 +14,7 @@
 6) Install docker for windows desktop "https://hub.docker.com/editions/community/docker-ce-desktop-windows/"
    >> Change Docker desktop Resource/WLS-Integration Setting to "Ubuntu"
 7) Load "https://github.com/angkarns/ArubaPhpDocker" sourcecode and extract to C:\
-  > Change sql-connection-ip-address in server.php file
+   >> Change sql-connection-ip-address in server.php file
 8) Install Apache-PHP
   > cd c:\ArubaPhpDocker
   > docker run -d -p 80:80 --name my-apache-php-app -v C:\ArubaPhpDocker:/var/www/html php:7.2-apache
