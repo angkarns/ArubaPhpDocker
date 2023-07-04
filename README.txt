@@ -13,7 +13,7 @@
 5) Install Ubuntu on Windows Store
 6) Install docker for windows desktop "https://hub.docker.com/editions/community/docker-ce-desktop-windows/"
    >> Change Docker desktop Resource/WLS-Integration Setting to "Ubuntu"
-7) Load "https://github.com/angkarns/ArubaPhpDocker" sourcecode and extract to C:\
+7) Download "https://github.com/angkarns/ArubaPhpDocker" sourcecode and extract to C:\
    >> Change sql-connection-ip-address in server.php file
 8) Install Apache-PHP
   > cd c:\ArubaPhpDocker
