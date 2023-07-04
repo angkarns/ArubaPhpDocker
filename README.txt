@@ -35,4 +35,5 @@
   > node server.js
 16) Add New Tags (http://localhost/tags) 
 17) Add Floor Plan (http://localhost/uploadimagefile) 
-18) Search Tags Location (http://localhost), New user need to register new user account.
+18) Register new user account. (http://localhost)
+19) Search Tags Location (http://localhost)
