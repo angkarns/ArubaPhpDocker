@@ -30,4 +30,9 @@
   > docker run --name phpmyadmin -d --link iot-mysql:db -p 8081:80 phpmyadmin
 12) phpMyAdmin> Edit or Add new sql-root-user password to "Native-MySql-Authentication"
 13) phpMyAdmin> import "sql_cli\iot-table.sql" file to "iot" database
-
+14) Setup iot profile in Aruba WiFi (supported both AOS and Instant AP)
+15) start NodeJS
+  > node server.js
+16) Add New Tags (http://localhost/tags) 
+17) Add Floor Plan (http://localhost/uploadimagefile) 
+18) Search Tags Location (http://localhost), New user need to register new user account.
