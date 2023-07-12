@@ -28,8 +28,8 @@
   > docker run --name iot-mysql -e MYSQL_ROOT_PASSWORD=root00-- -e MYSQL_DATABASE=iot -e TZ=Asia/Bangkok -p 3306:3306 -d mysql:8.0.33
 11) Install phpMyAdmin
   > docker run --name phpmyadmin -d --link iot-mysql:db -p 8081:80 phpmyadmin
-12) phpMyAdmin> Edit or Add new sql-root-user password to "Native-MySql-Authentication"
-13) phpMyAdmin> import "sql_cli\iot-table.sql" file to "iot" database
+12) phpMyAdmin (http://localhost:8081)> Edit or Add new sql-root-user password to "Native-MySql-Authentication"
+13) phpMyAdmin (http://localhost:8081)> import "sql_cli\iot-table.sql" file to "iot" database
 14) Setup iot profile in Aruba WiFi (supported both AOS and Instant AP)
 15) start NodeJS
   > node server.js
