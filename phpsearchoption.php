@@ -36,7 +36,7 @@
                     FROM sensors 
                     INNER JOIN device_inventory ON sensors.s_mac_address = device_inventory.d_macaddress
                     INNER JOIN tb_upload ON sensors.s_location = tb_upload.name
-                    WHERE $column like '%$search%' 
+                    WHERE $column like '%$search%' AND s_rssi >=-60
                     ORDER BY s_timestamp DESC 
                     LIMIT 1";
 
